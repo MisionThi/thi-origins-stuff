@@ -1,0 +1,9 @@
+site_name: Thi-origin documentation
+
+nav: 
+    - Home: index.md
+    - Libraries: libraries.md
+    - Powers: powers.md
+    - Origins: origins.md
+
+theme: readthedocs
