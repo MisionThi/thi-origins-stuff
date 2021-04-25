@@ -9,3 +9,5 @@ What is it does is creates the possibility to have more than two active abilitie
 With this library, you will be able to have up to 18 active powers on one origin.
 
 ## How do I use it?
+The first step will be downloading the datapack off course. In the data file 
+>> test
