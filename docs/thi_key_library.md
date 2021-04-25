@@ -34,7 +34,7 @@ In the library, we currently have 3 activation possibilities. We have the **push
 With the "push" activation you can click the key ones and will the power will activate.
 When you hold the key the power will still only activate ones. <br />
 
-The conditions for it are.
+The conditions for it are. <br />
 **Primary**
 ```json
 "condition": {
@@ -59,7 +59,7 @@ The conditions for it are.
 **Push-hold** <br />
 With the "push-hold" activation you can hold the key and the power will deactivate once you let the key go. <br />
 
-The conditions for it are.
+The conditions for it are. <br />
 **Primary**
 ```json
 "condition": {
@@ -84,7 +84,7 @@ The conditions for it are.
 **Toggle** <br />
 With the "toggle" activation you press the key ones to activate and ones to deactivate. <br />
 
-The conditions for it are.
+The conditions for it are. <br />
 **Primary**
 ```json
 "condition": {
