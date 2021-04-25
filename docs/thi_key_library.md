@@ -29,6 +29,9 @@ hallo
 
 ## Activation possibility's
 In the library, we currently have 3 activation possibilities. We have the **push**, **push-hold** and **toggle**. 
+You will have to place the conditions below in the first part from the power file. <br />
+primary condition in the part named -> `activation_type_primary` <br />
+Secondary condition in the part named -> `activation_type_secondary`
 
 ### Push 
 With the "push" activation you can click the key ones and will the power will activate.
