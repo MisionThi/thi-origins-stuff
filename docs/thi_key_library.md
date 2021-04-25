@@ -28,13 +28,68 @@ them in your pack or you could use this datapack next to yours that would also w
 hallo
 
 ## Activation possibility's
-In the library we currently have 3 activation possibility's. We have the **push**, **push-hold** and **toggle**. 
+In the library, we currently have 3 activation possibilities. We have the **push**, **push-hold** and **toggle**. 
 
 **Push** <br />
-push
+With the "push" activation you can click the key ones and will the power will activate.
+When you hold the key the power will still only activate ones. <br />
+
+The conditions for it are.
+**Primary**
+```"condition": {
+  "type": "origins:resource",
+  "resource": "thi_key_library:resources/primary/push_ones",
+  "comparison": "==",
+  "compare_to": 1
+}```
+
+**Secondary**
+```"condition": {
+  "type": "origins:resource",
+  "resource": "thi_key_library:resources/secondary/push_ones",
+  "comparison": "==",
+  "compare_to": 1
+}```
+
 
 **Push-hold** <br />
-push-hold
+With the "push-hold" activation you can hold the key and the power will deactivate once you let the key go. <br />
+
+The conditions for it are.
+**Primary**
+```"condition": {
+  "type": "origins:resource",
+  "resource": "thi_key_library:resources/primary/push_hold",
+  "comparison": "==",
+  "compare_to": 1
+}```
+
+**Secondary**
+```"condition": {
+  "type": "origins:resource",
+  "resource": "thi_key_library:resources/secondary/push_hold",
+  "comparison": "==",
+  "compare_to": 1
+}```
+
 
 **Toggle** <br />
-toggle
+With the "toggle" activation you press the key ones to activate and ones to deactivate. <br />
+
+The conditions for it are.
+**Primary**
+```"condition": {
+  "type": "origins:resource",
+  "resource": "thi_key_library:resources/primary/toggle_convert",
+  "comparison": "==",
+  "compare_to": 1
+}```
+
+**Secondary**
+```"condition": {
+  "type": "origins:resource",
+  "resource": "thi_key_library:resources/secondary/toggle_convert",
+  "comparison": "==",
+  "compare_to": 1
+}```
+
