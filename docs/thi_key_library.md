@@ -43,8 +43,7 @@ Secondary condition in the part named -> `activation_type_secondary`
 ### Push 
 With the "push" activation you can click the key ones and will the power will activate.
 When you hold the key the power will still only activate ones. <br />
-How to format the top part examples: actions = power3.json, power-types = power6.json in the thi_key_example folder <br />
-
+How to format the top part examples: `actions = power3.json`, `power-types = power6.json` in the thi_key_example folder <br />
 The conditions for it are. <br />
 **Primary**
 ```json
@@ -69,7 +68,7 @@ The conditions for it are. <br />
 
 ### Push-hold 
 With the "push-hold" activation you can hold the key and the power will deactivate once you let the key go. <br />
-How to format the top part examples: actions = power2.json, power-types = power5.json in the thi_key_example folder<br />
+How to format the top part examples: `actions = power2.json`, `power-types = power5.json` in the thi_key_example folder<br />
 The conditions for it are. <br />
 **Primary**
 ```json
@@ -94,7 +93,7 @@ The conditions for it are. <br />
 
 ### Toggle 
 With the "toggle" activation you press the key ones to activate and ones to deactivate. <br />
-How to format the top part examples: actions = power1.json, power-types = power4.json in the thi_key_example folder<br />
+How to format the top part examples: `actions = power1.json`, `power-types = power4.json` in the thi_key_example folder<br />
 The conditions for it are. <br />
 **Primary**
 ```json
