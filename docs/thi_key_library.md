@@ -28,4 +28,13 @@ them in your pack or you could use this datapack next to yours that would also w
 hallo
 
 ## Activation possibility's
-In the library we currently have 3 activation possibility's. We have the **push**, **push-hold** and **toggle**
+In the library we currently have 3 activation possibility's. We have the **push**, **push-hold** and **toggle**. 
+
+**Push** <br />
+push
+
+**Push-hold** <br />
+push-hold
+
+**Toggle** <br />
+toggle
