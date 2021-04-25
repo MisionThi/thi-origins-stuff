@@ -81,7 +81,7 @@ The conditions for it are. <br />
 ```
 
 
-#**Toggle** <br />
+#Toggle <br />
 With the "toggle" activation you press the key ones to activate and ones to deactivate. <br />
 
 The conditions for it are. <br />
