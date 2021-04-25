@@ -9,7 +9,5 @@ What is it does is creates the possibility to have more than two active abilitie
 With this library, you will be able to have up to 18 active powers on one origin.
 
 ## How do I use it?
-The first step will be downloading the datapack off course. In the data file 
-`` test ``
-
-` hoe `
+The first step will be downloading the datapack off course. You will be putting the datapack in the following position: 
+`.minecraft/saves/<name world>/datapacks/`. When you have placed it in your datapacks folder make sure the datapach is vissble.
