@@ -33,12 +33,12 @@ See [activation possibilities](#activation-possibilities) for more info on that.
 **Step 4 - Add your actions / power-types** <br />
 For this there are multiple exaples in the `thi_key_example` folder. <br />
 Examples <br/>
-power1.json =  action toggle
-power2.json =  action push-hold
-power3.json =  action push
+power1.json =  action toggle <br/>
+power2.json =  action push-hold <br/>
+power3.json =  action push <br/>
 
-power4.json =  power-type push
-power5.json =  power-type push
+power4.json =  power-type push <br/>
+power5.json =  power-type push <br/>
 power6.json =  power-type push
 
 <br />
