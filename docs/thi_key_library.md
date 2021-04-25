@@ -18,5 +18,7 @@ You will be able to check this with the following command: `/datapack list` <br 
 If the pack is enabled it will be visible in the first list. <br />
 
 **Step 2 - d** <br />
-2. When you go in to the data map from the datapack. You will see three maps in the data folder. <br />
-If you want the library in your own pack you only have the copy the map named `thi_key_library`. And the `key_layer.json` from the `data/origins/origin_layers/`
+When you go in to the data map from the datapack. You will see three maps in the data folder. <br />
+If you want the library in your own pack you only have the copy the map named `thi_key_library`. <br />
+And the `key_layer.json` from the `data/origins/origin_layers/`. When you copy those you can use
+them in your own pack or you could use this datapack next to yours that would also work.
