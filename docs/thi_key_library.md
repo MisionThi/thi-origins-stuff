@@ -28,7 +28,7 @@ them in your pack or you could use this datapack next to yours that would also w
 You will find all the power files premade with conditions in the folder named `thi_key_example` in the data folder next to the `thi_key_library` folder.
 Inside the folder named `powers`, you can find files named power1 through power18. <br >
 I would recomend first choosing what activation type you want to have. <br />
-See [Activation possibilities](/#activation-possibilities/) for more info on that.
+See [Activation possibilities](/#activation-possibilities/) for more info on that. tesst
 
 ## Activation possibilities
 In the library, we currently have 3 activation possibilities. We have the **push**, **push-hold** and **toggle**. 
