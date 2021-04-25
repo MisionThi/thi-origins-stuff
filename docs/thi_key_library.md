@@ -25,8 +25,7 @@ And the `key_layer.json` from the `data/origins/origin_layers/`. When you copy t
 them in your pack or you could use this datapack next to yours that would also work. <br />
 
 **Step 3 - custom powers** <br />
-
-
+hallo
 
 ## Activation possibility's
-In the library we currently have 3 activation possibility's. We have the *push*, *push-hold* and *toggle*
+In the library we currently have 3 activation possibility's. We have the **push**, **push-hold** and **toggle**
