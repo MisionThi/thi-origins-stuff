@@ -32,7 +32,7 @@ See [activation possibilities](#activation-possibilities) for more info on that.
 
 **Step 4 - Add your actions / power-types** <br />
 For this there are multiple exaples in the `thi_key_example` folder. <br />
-You will be able to change the "type" for the power-types and actions in the action_over_time.<br />
+You will be able to change the "type" for the power-types and actions for the action_over_time.<br />
 Examples <br/>
 power1.json =  action toggle <br/>
 power2.json =  action push-hold <br/>
