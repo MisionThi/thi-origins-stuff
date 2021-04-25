@@ -5,5 +5,7 @@ date: 2021-04-04
 
 # Thi key library
 
-## What does the "thi key library"?
-What is it does is it creates the possiblity to have more than two active abilities on your origin
+What is it does is creates the possibility to have more than two active abilities on your origin. 
+With this library, you will be able to have up to 18 active powers on one origin.
+
+## How do I use it?
