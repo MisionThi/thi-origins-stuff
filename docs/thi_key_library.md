@@ -36,7 +36,8 @@ When you hold the key the power will still only activate ones. <br />
 
 The conditions for it are.
 **Primary**
-```"condition": {
+```json
+"condition": {
   "type": "origins:resource",
   "resource": "thi_key_library:resources/primary/push_ones",
   "comparison": "==",
@@ -44,7 +45,8 @@ The conditions for it are.
 }```
 
 **Secondary**
-```"condition": {
+```json
+"condition": {
   "type": "origins:resource",
   "resource": "thi_key_library:resources/secondary/push_ones",
   "comparison": "==",
@@ -57,7 +59,8 @@ With the "push-hold" activation you can hold the key and the power will deactiva
 
 The conditions for it are.
 **Primary**
-```"condition": {
+```json
+"condition": {
   "type": "origins:resource",
   "resource": "thi_key_library:resources/primary/push_hold",
   "comparison": "==",
@@ -65,7 +68,8 @@ The conditions for it are.
 }```
 
 **Secondary**
-```"condition": {
+```json
+"condition": {
   "type": "origins:resource",
   "resource": "thi_key_library:resources/secondary/push_hold",
   "comparison": "==",
@@ -78,7 +82,8 @@ With the "toggle" activation you press the key ones to activate and ones to deac
 
 The conditions for it are.
 **Primary**
-```"condition": {
+```json
+"condition": {
   "type": "origins:resource",
   "resource": "thi_key_library:resources/primary/toggle_convert",
   "comparison": "==",
@@ -86,7 +91,8 @@ The conditions for it are.
 }```
 
 **Secondary**
-```"condition": {
+```json
+"condition": {
   "type": "origins:resource",
   "resource": "thi_key_library:resources/secondary/toggle_convert",
   "comparison": "==",
