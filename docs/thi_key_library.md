@@ -40,9 +40,11 @@ You will have to place the conditions below in the first part from the power fil
 primary condition in the part named -> `activation_type_primary` <br />
 Secondary condition in the part named -> `activation_type_secondary`
 
-### Push (Examples actions power3, power-types power 6)
+### Push 
 With the "push" activation you can click the key ones and will the power will activate.
 When you hold the key the power will still only activate ones. <br />
+How to format the top part examples: actions = power3.json, power-types = power6.json <br />
+
 The conditions for it are. <br />
 **Primary**
 ```json
@@ -65,8 +67,9 @@ The conditions for it are. <br />
 ```
 <br />
 
-### Push-hold (Examples actions power2, power-types power 5)
+### Push-hold 
 With the "push-hold" activation you can hold the key and the power will deactivate once you let the key go. <br />
+How to format the top part examples: actions = power2.json, power-types = power5.json <br />
 The conditions for it are. <br />
 **Primary**
 ```json
@@ -89,8 +92,9 @@ The conditions for it are. <br />
 ```
 <br />
 
-### Toggle (Examples actions power1, power-types power 4)
+### Toggle 
 With the "toggle" activation you press the key ones to activate and ones to deactivate. <br />
+How to format the top part examples: actions = power1.json, power-types = power4.json <br />
 The conditions for it are. <br />
 **Primary**
 ```json
