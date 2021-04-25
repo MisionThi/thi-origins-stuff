@@ -30,7 +30,7 @@ hallo
 ## Activation possibility's
 In the library, we currently have 3 activation possibilities. We have the **push**, **push-hold** and **toggle**. 
 
-#**Push** <br />
+###Push <br />
 With the "push" activation you can click the key ones and will the power will activate.
 When you hold the key the power will still only activate ones. <br />
 
@@ -56,7 +56,7 @@ The conditions for it are. <br />
 ```
 
 
-#**Push-hold** <br />
+###Push-hold <br />
 With the "push-hold" activation you can hold the key and the power will deactivate once you let the key go. <br />
 
 The conditions for it are. <br />
@@ -81,7 +81,7 @@ The conditions for it are. <br />
 ```
 
 
-#Toggle <br />
+###Toggle <br />
 With the "toggle" activation you press the key ones to activate and ones to deactivate. <br />
 
 The conditions for it are. <br />
