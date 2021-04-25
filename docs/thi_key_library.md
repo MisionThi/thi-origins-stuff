@@ -42,7 +42,8 @@ The conditions for it are.
   "resource": "thi_key_library:resources/primary/push_ones",
   "comparison": "==",
   "compare_to": 1
-}```
+}
+```
 
 **Secondary**
 ```json
@@ -51,7 +52,8 @@ The conditions for it are.
   "resource": "thi_key_library:resources/secondary/push_ones",
   "comparison": "==",
   "compare_to": 1
-}```
+}
+```
 
 
 **Push-hold** <br />
@@ -65,7 +67,8 @@ The conditions for it are.
   "resource": "thi_key_library:resources/primary/push_hold",
   "comparison": "==",
   "compare_to": 1
-}```
+}
+```
 
 **Secondary**
 ```json
@@ -74,7 +77,8 @@ The conditions for it are.
   "resource": "thi_key_library:resources/secondary/push_hold",
   "comparison": "==",
   "compare_to": 1
-}```
+}
+```
 
 
 **Toggle** <br />
@@ -88,7 +92,8 @@ The conditions for it are.
   "resource": "thi_key_library:resources/primary/toggle_convert",
   "comparison": "==",
   "compare_to": 1
-}```
+}
+```
 
 **Secondary**
 ```json
@@ -97,5 +102,6 @@ The conditions for it are.
   "resource": "thi_key_library:resources/secondary/toggle_convert",
   "comparison": "==",
   "compare_to": 1
-}```
+}
+```
 
