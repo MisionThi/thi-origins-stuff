@@ -29,3 +29,4 @@ them in your pack or you could use this datapack next to yours that would also w
 
 
 ## Activation possibility's
+In the library we currently have 3 activation possibility's. We have the *push*, *push-hold* and *toggle*
