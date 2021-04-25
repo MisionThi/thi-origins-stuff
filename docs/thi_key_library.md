@@ -28,15 +28,19 @@ them in your pack or you could use this datapack next to yours that would also w
 You will find all the power files premade with conditions in the folder named `thi_key_example` in the data folder next to the `thi_key_library` folder.
 Inside the folder named `powers`, you can find files named power1 through power18. <br >
 I would recomend first choosing what activation type you want to have. <br />
-See [Activation possibilities](#activation-possibilities) for more info on that. 
+See [activation possibilities](#activation-possibilities) for more info on that. <br />
 
+**Step 4 - Add your actions / power-types** <br />
+
+
+<br />
 ## Activation possibilities
 In the library, we currently have 3 activation possibilities. We have the **push**, **push-hold** and **toggle**. 
 You will have to place the conditions below in the first part from the power file. <br />
 primary condition in the part named -> `activation_type_primary` <br />
 Secondary condition in the part named -> `activation_type_secondary`
 
-### Push 
+### Push (Examples actions power3, power-types power 6)
 With the "push" activation you can click the key ones and will the power will activate.
 When you hold the key the power will still only activate ones. <br />
 The conditions for it are. <br />
@@ -61,7 +65,7 @@ The conditions for it are. <br />
 ```
 <br />
 
-### Push-hold
+### Push-hold (Examples actions power2, power-types power 5)
 With the "push-hold" activation you can hold the key and the power will deactivate once you let the key go. <br />
 The conditions for it are. <br />
 **Primary**
@@ -85,7 +89,7 @@ The conditions for it are. <br />
 ```
 <br />
 
-### Toggle
+### Toggle (Examples actions power1, power-types power 4)
 With the "toggle" activation you press the key ones to activate and ones to deactivate. <br />
 The conditions for it are. <br />
 **Primary**
