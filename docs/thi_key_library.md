@@ -10,5 +10,5 @@ With this library, you will be able to have up to 18 active powers on one origin
 
 ## How do I use it?
 The first step will be downloading the datapack off course. You will be putting the datapack in the following position: 
-`.minecraft/saves/<name world>/datapacks/`. \
+`.minecraft/saves/<name world>/datapacks/`. <br />
 When you have placed it in your datapacks folder make sure the datapach is vissble.
