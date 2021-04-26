@@ -140,8 +140,8 @@ If you want to preset more powers to certain key slot combinations you will have
 In this folder you will find the resources that determain whitch key slot combination will activate the power.
 To change the slot key combination that activates it change the `"start_value": -1,` to the value you want. <br />
 See the table below for what value means what. <br />
-Value | Slot | Key |
-------|------|-----|
+Value | Slot | Key 
+------|------|-----
 -1 | None | None
 0 | 0 | Primary
 1 | 1 | Primary
