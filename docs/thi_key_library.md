@@ -167,7 +167,8 @@ Value | Slot | Key
 
 ## Change the activation location (in-game)
 Important to remember is that only the first four powers are preset to a specific slot and key. <br />
-![Alt text](https://streamable.com/qvph6g "Optional title")
+![Placeholder](https://streamable.com/qvph6g){ align=left }
+
 
 
 
