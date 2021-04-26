@@ -7,7 +7,7 @@ date: 2021-04-04
 
 What it does is it creates the possibility to have more than two active abilities on your origin. 
 With this library, you will be able to have up to 18 active powers on one origin. 
-The powers will be set on a specific slot and key, for example, slot 0 and primary-key
+The powers will be set on a specific slot and key, for example, slot 0 and primary-key <br />
 [**Download**](https://github.com/MisionThi/thi_key_library)
 
 ## Contents
