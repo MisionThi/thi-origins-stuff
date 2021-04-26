@@ -13,7 +13,8 @@ The powers will be set on a specific slot and key, for example, slot 0 and prima
 
 * [How do I use it?](#how-do-i-use-it)
 * [Activation possibilities](#activation-possibilities)
-* [Change the activation location (in-game)](#change-the-activation-location)
+* [Change the activation location (in-game)](#change-the-activation-location-in-game)
+* [Change the activation location (in-code)](#change-the-activation-location-in-code)
 
 
 ## How do I use it?
@@ -132,5 +133,9 @@ The conditions for it are. <br />
 ```
 <br />
 
-## Change the activation location
+## Change the activation location (in-game)
+haalo
+
+## Change the activation location (in-code)
+tea
 
