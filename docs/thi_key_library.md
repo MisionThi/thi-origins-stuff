@@ -166,7 +166,7 @@ Value | Slot | Key
 
 ## Change the activation location (in-game)
 Important to remember is that only the first four powers are preset to a specific slot and key. <br />
-![Alt text](images/crafting_recipie.png "Optional title")
+![Alt text](thi-origins-stuff/images/crafting_recipie.png "Optional title")
 
 
 
