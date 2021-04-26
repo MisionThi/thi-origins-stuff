@@ -179,4 +179,5 @@ Change book: <br />
 <br />
 
 ## In-game documentation
-
+You will get this book when you choose your origin.
+![Alt text](img/beginbook.png "Optional title")
