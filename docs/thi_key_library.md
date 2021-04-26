@@ -169,10 +169,10 @@ Value | Slot | Key
 Important to remember is that only the first four powers are preset to a specific slot and key. <br />
 
 Crafting recipie for the the change book: <br />
-![Alt text](img/crafting_recipie.png "Optional title") <br />
+![Alt text](img/crafting_recipie.png "Optional title") 
 
 Change book: <br />
-![Alt text](img/power_change.png "Optional title") <br />
+![Alt text](img/power_change.png "Optional title")
 
 
 
