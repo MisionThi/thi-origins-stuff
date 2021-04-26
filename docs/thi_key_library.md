@@ -166,7 +166,9 @@ Value | Slot | Key
 <br />
 
 ## Change the activation location (in-game)
-Important to remember is that only the first four powers are preset to a specific slot and key. <br />
+When you want to change the location from the activation you will first have to craft the change book. You can see the recipie below.
+On the first page, you will be able to see the number from 1 through 18. When you click on it. There will be a guide message in your chat.
+There you can click on the slot you want to change it to or just turn off it.
 
 Crafting recipie for the the change book: <br />
 ![Alt text](img/crafting_recipie.png "Optional title") 
