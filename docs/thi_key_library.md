@@ -135,11 +135,11 @@ The conditions for it are. <br />
 <br />
 
 ## Change the activation location (in-code)
-Important to rember is that only first four powers are preset to a specific slot and key. <br />
-If you want to preset more powers to certain key slot combinations you will have go in the folder `thi_key_library/powers/resources/power_slot/` 
-In this folder you will find the resources that determain whitch key slot combination will activate the power.
+Important to remember is that only the first four powers are preset to a specific slot and key. <br />
+If you want to preset more powers to certain key slot combinations you will have to go to the folder `thi_key_library/powers/resources/power_slot/` 
+In this folder, you will find the resources that determine which key slot combination will activate the power.
 To change the slot key combination that activates it change the `"start_value": -1,` to the value you want. <br />
-See the table below for what value means what. <br />
+See the table below for what value means. <br />
 
 Value | Slot | Key 
 ------|------|-----
@@ -162,9 +162,12 @@ Value | Slot | Key
 15 | 6 | Secondary
 16 | 7 | Secondary
 17 | 8 | Secondary
+<br />
 
 ## Change the activation location (in-game)
-haalo
+Important to remember is that only the first four powers are preset to a specific slot and key. <br />
+![Alt text](images/crafting_recipie.png "Optional title")
+
 
 
 
