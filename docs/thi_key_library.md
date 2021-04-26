@@ -13,8 +13,9 @@ The powers will be set on a specific slot and key, for example, slot 0 and prima
 
 * [How do I use it?](#how-do-i-use-it)
 * [Activation possibilities](#activation-possibilities)
-* [Change the activation location (in-game)](#change-the-activation-location-in-game)
 * [Change the activation location (in-code)](#change-the-activation-location-in-code)
+* [Change the activation location (in-game)](#change-the-activation-location-in-game)
+
 
 
 ## How do I use it?
@@ -133,9 +134,14 @@ The conditions for it are. <br />
 ```
 <br />
 
+## Change the activation location (in-code)
+Important to rember is that only first four powers are preset to a specific slot and key. <br />
+If you want to preset more powers to certain key slot combinations you will have go in the folder `thi_key_library/powers/resources/power_slot/` 
+In this folder you will find the resources that determain whitch key slot combination will activate the power.
+To change the slot key combination that activates it change the `"start_value": -1`
+
 ## Change the activation location (in-game)
 haalo
 
-## Change the activation location (in-code)
-tea
+
 
