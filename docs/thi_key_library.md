@@ -5,9 +5,16 @@ date: 2021-04-04
 
 # Thi key library
 
-What is it does is creates the possibility to have more than two active abilities on your origin. 
+What it does is it creates the possibility to have more than two active abilities on your origin. 
 With this library, you will be able to have up to 18 active powers on one origin. 
 The powers will be set on a specific slot and key, for example, slot 0 and primary-key
+
+## Contents
+
+* [How do I use it?](#how-do-i-use-it)
+* [Activation possibilities](#activation-possibilities)
+* [Change the activation location (in-game)](#change-the-activation-location)
+
 
 ## How do I use it?
 
@@ -123,4 +130,7 @@ The conditions for it are. <br />
   "compare_to": 1
 }
 ```
+<br />
+
+## Change the activation location
 
