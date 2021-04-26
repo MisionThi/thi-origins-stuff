@@ -15,6 +15,7 @@ The powers will be set on a specific slot and key, for example, slot 0 and prima
 * [Activation possibilities](#activation-possibilities)
 * [Change the activation location (in-code)](#change-the-activation-location-in-code)
 * [Change the activation location (in-game)](#change-the-activation-location-in-game)
+* [In-game documentation](#in-game-documentation)
 
 
 
@@ -175,7 +176,7 @@ Crafting recipie for the the change book: <br />
 
 Change book: <br />
 ![Alt text](img/power_change.png "Optional title")
+<br />
 
-
-
+## In-game documentation
 
