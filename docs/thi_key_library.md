@@ -138,7 +138,29 @@ The conditions for it are. <br />
 Important to rember is that only first four powers are preset to a specific slot and key. <br />
 If you want to preset more powers to certain key slot combinations you will have go in the folder `thi_key_library/powers/resources/power_slot/` 
 In this folder you will find the resources that determain whitch key slot combination will activate the power.
-To change the slot key combination that activates it change the `"start_value": -1`
+To change the slot key combination that activates it change the `"start_value": -1,` to the value you want. <br />
+See the table below for what value means what. <br />
+Value | Slot | Key |
+------|------|-----|
+-1 | None | None
+0 | 0 | Primary
+1 | 1 | Primary
+2 | 2 | Primary
+3 | 3 | Primary
+4 | 4 | Primary
+5 | 5 | Primary
+6 | 6 | Primary
+7 | 7 | Primary
+8 | 8 | Primary
+9 | 0 | Secondary
+10 | 1 | Secondary
+11 | 2 | Secondary
+12 | 3 | Secondary
+13 | 4 | Secondary
+14 | 5 | Secondary
+15 | 6 | Secondary
+16 | 7 | Secondary
+17 | 8 | Secondary
 
 ## Change the activation location (in-game)
 haalo
