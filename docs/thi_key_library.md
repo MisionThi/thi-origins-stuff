@@ -141,11 +141,6 @@ In this folder you will find the resources that determain whitch key slot combin
 To change the slot key combination that activates it change the `"start_value": -1,` to the value you want. <br />
 See the table below for what value means what. <br />
 
-Field  | Type | Default | Description
--------|------|---------|-------------
-`action` | [Action](../actions.md) | | The action which might be executed.
-`chance` | [Float](../data_types/float.md) | | The chance that the action will execute, from 0 to 1. (E.g. 0.1 means 10% chance, 0.95 means 95% chance)
-
 Value | Slot | Key 
 ------|------|-----
 -1 | None | None
