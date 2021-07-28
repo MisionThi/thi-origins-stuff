@@ -173,12 +173,12 @@ On the first page, you will be able to see the number from 1 through 18. When yo
 There you can click on the slot you want to change it to or just turn off it.
 
 Crafting recipie for the the change book: <br />
-![Alt text](img/crafting_recipie.png "Crafting recipie") 
+![Alt text](crafting_recipie.png "Crafting recipie") 
 
 Change book: <br />
-![Alt text](img/power_change.png "Power change book")
+![Alt text](power_change.png "Power change book")
 <br />
 
 ## In-game documentation
 You will get this book when you choose your origin.
-![Alt text](img/beginbook.png "In game documentation")
+![Alt text](beginbook.png "In game documentation")
