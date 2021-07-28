@@ -10,5 +10,5 @@ A library is a piece of code that's written by someone with the intent to make c
 This way you will be able to implement more advanced things in your datapack since the code is already written and you only need to implement it in your code.
 
 # List
-* [thi key library](thi_key_library.md)
+* [thi key library](libraries/thi_key_lib_v1/thi_key_library.md)
 
