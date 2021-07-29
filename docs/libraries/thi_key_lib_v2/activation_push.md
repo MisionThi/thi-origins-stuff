@@ -6,7 +6,7 @@ date: 2021-07-28
 # Push activation
 The activation type push detects the key is getting pressed and then grants the power for 1 tick. After that it will get revoked inmidietly.
 
-<h2 style="margin-bottom: 0px;">Power file</h2>
+<h3 style="margin-bottom: 0px;">Power file</h3>
 The structre of the file is as followed: <br />
 
 | power | Description |
@@ -68,164 +68,70 @@ The structre of the file is as followed: <br />
 }
 ```
 <br />
-<h2 style="margin-bottom: 0px;">power_link file</h2>
-<h4 style="margin-bottom: 0px;">Snipit from complete file w</h4>
+<h3 style="margin-bottom: 0px;">power_link file</h3>
+<h6 style="margin-bottom: 0px;">Snipit from complete file</h6>
 
-```json
-{
-  "condition": {
-    "type": "apoli:scoreboard",
-    "objective": "thi_p.a",
-    "comparison": "==",
-    "compare_to": 1
+<code class="language-json hljs">{
+  <span class="hljs-attr">"condition"</span>: {
+    <span class="hljs-attr">"type"</span>: <span class="hljs-string">"apoli:scoreboard"</span>,
+    <span class="hljs-attr">"objective"</span>: <span class="hljs-string">"thi_p.a"</span>,
+    <span class="hljs-attr">"comparison"</span>: <span class="hljs-string">"=="</span>,
+    <span class="hljs-attr">"compare_to"</span>: <span class="hljs-number">1</span>
   },
-  "action": {
-    "type": "apoli:if_else",
-    "condition": {
-      "type": "apoli:or",
-      "conditions": [
+  <span class="hljs-attr">"action"</span>: {
+    <span class="hljs-attr">"type"</span>: <span class="hljs-string">"apoli:if_else"</span>,
+    <span class="hljs-attr">"condition"</span>: {
+      <span class="hljs-attr">"type"</span>: <span class="hljs-string">"apoli:or"</span>,
+      <span class="hljs-attr">"conditions"</span>: [
         {
-          "type": "apoli:resource",
-          "resource": "thi_key_libv2:example/power1_active",
-          "comparison": ">=",
-          "compare_to": 1
+          <span class="hljs-attr">"type"</span>: <span class="hljs-string">"apoli:resource"</span>,
+          <span class="hljs-attr">"resource"</span>: <span class="hljs-string">"thi_key_libv2:example/power1_active"</span>,
+          <span class="hljs-attr">"comparison"</span>: <span class="hljs-string">"&gt;="</span>,
+          <span class="hljs-attr">"compare_to"</span>: <span class="hljs-number">1</span>
         },
         {
-          "type": "apoli:power",
-          "power": "thi_key_libv2:example/power1",
-          "inverted": true
+          <span class="hljs-attr">"type"</span>: <span class="hljs-string">"apoli:power"</span>,
+          <span class="hljs-attr">"power"</span>: <span class="hljs-string">"thi_key_libv2:example/power1"</span>,
+          <span class="hljs-attr">"inverted"</span>: <span class="hljs-literal">true</span>
         }
       ]
     },
-    "if_action": {
-      "type": "apoli:if_else",
-      "condition": {
-        "type": "apoli:scoreboard",
-        "objective": "thi_p.a.t",
-        "comparison": "==",
-        "compare_to": 0
+    <span class="hljs-attr">"if_action"</span>: {
+      <span class="hljs-attr">"type"</span>: <span class="hljs-string">"apoli:if_else"</span>,
+      <span class="hljs-attr">"condition"</span>: {
+        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"apoli:scoreboard"</span>,
+        <span class="hljs-attr">"objective"</span>: <span class="hljs-string">"thi_p.a.t"</span>,
+        <span class="hljs-attr">"comparison"</span>: <span class="hljs-string">"=="</span>,
+        <span class="hljs-attr">"compare_to"</span>: <span class="hljs-number">0</span>
       },
-      "if_action": {
-        "type": "origins:and",
-        "actions": [
+      <span class="hljs-attr">"if_action"</span>: {
+        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"origins:and"</span>,
+        <span class="hljs-attr">"actions"</span>: [
           {
-            "type": "apoli:execute_command",
-            "command": "power grant @s thi_key_libv2:example/power1"
+            <span class="hljs-attr">"type"</span>: <span class="hljs-string">"apoli:execute_command"</span>,
+            <span class="hljs-attr">"command"</span>: <span class="hljs-string">"power grant @s thi_key_libv2:example/power1"</span>
           },
           {    
-            "type": "apoli:execute_command",
-            "command": "say activate cooldown"
+            <span class="hljs-attr">"type"</span>: <span class="hljs-string">"apoli:execute_command"</span>,
+            <span class="hljs-attr">"command"</span>: <span class="hljs-string">"say activate cooldown"</span>
           }
         ]
       }
     },
-    "else_action": {
-      "type": "apoli:if_else",
-      "condition": {
-        "type": "apoli:scoreboard",
-        "objective": "thi_p.a.t",
-        "comparison": "==",
-        "compare_to": 1
+    <span class="hljs-attr">"else_action"</span>: {
+      <span class="hljs-attr">"type"</span>: <span class="hljs-string">"apoli:if_else"</span>,
+      <span class="hljs-attr">"condition"</span>: {
+        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"apoli:scoreboard"</span>,
+        <span class="hljs-attr">"objective"</span>: <span class="hljs-string">"thi_p.a.t"</span>,
+        <span class="hljs-attr">"comparison"</span>: <span class="hljs-string">"=="</span>,
+        <span class="hljs-attr">"compare_to"</span>: <span class="hljs-number">1</span>
       },
-      "if_action": {
-        "type": "apoli:execute_command",
-        "command": "power revoke @s thi_key_libv2:example/power1"
+      <span class="hljs-attr">"if_action"</span>: {
+        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"apoli:execute_command"</span>,
+        <span class="hljs-attr">"command"</span>: <span class="hljs-string">"power revoke @s thi_key_libv2:example/power1"</span>
       }
     }
   }
 }
-```
+</code>
 
-<h4 style="margin-bottom: 0px;">Complete file</h4>
-
-```json
-{
-  "type": "apoli:multiple",
-  
-  "active": {
-    "type": "apoli:action_over_time",
-    "entity_action": {
-      "type": "apoli:and",
-      "actions": [
-        {
-          "type": "apoli:execute_command",
-          "command": "function thi_key_libv2:update_slot"
-        },
-        {
-          "type": "apoli:if_else_list",
-          "actions": [
-            {
-              "condition": {
-                "type": "apoli:scoreboard",
-                "objective": "thi_p.a",
-                "comparison": "==",
-                "compare_to": 1
-              },
-              "action": {
-                "type": "apoli:if_else",
-                "condition": {
-                  "type": "apoli:or",
-                  "conditions": [
-                    {
-                      "type": "apoli:resource",
-                      "resource": "thi_key_libv2:example/power1_active",
-                      "comparison": ">=",
-                      "compare_to": 1
-                    },
-                    {
-                      "type": "apoli:power",
-                      "power": "thi_key_libv2:example/power1",
-                      "inverted": true
-                    }
-                  ]
-                },
-                "if_action": {
-                  "type": "apoli:if_else",
-                  "condition": {
-                    "type": "apoli:scoreboard",
-                    "objective": "thi_p.a.t",
-                    "comparison": "==",
-                    "compare_to": 0
-                  },
-                  "if_action": {
-                    "type": "origins:and",
-                    "actions": [
-                      {
-                        "type": "apoli:execute_command",
-                        "command": "power grant @s thi_key_libv2:example/power1"
-                      },
-                      {    
-                        "type": "apoli:execute_command",
-                        "command": "say activate cooldown"
-                      }
-                    ]
-                  }
-                },
-                "else_action": {
-                  "type": "apoli:if_else",
-                  "condition": {
-                    "type": "apoli:scoreboard",
-                    "objective": "thi_p.a.t",
-                    "comparison": "==",
-                    "compare_to": 1
-                  },
-                  "if_action": {
-                    "type": "apoli:execute_command",
-                    "command": "power revoke @s thi_key_libv2:example/power1"
-                  }
-                }
-              }
-            }
-          ]
-        },
-        {
-          "type": "apoli:execute_command",
-          "command": "power revoke @s thi_key_libv2:activate/power"
-        }
-      ]
-    },
-    "interval": 1
-  }
-}
-
-```
