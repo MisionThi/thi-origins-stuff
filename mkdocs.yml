@@ -10,3 +10,6 @@ theme: readthedocs
 
 extra_css:
     - assets/extra.css
+
+markdown_extensions:
+    - attr_list
