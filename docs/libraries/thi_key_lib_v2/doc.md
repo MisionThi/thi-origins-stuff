@@ -4,16 +4,14 @@ date: 2021-07-28
 ---
 
 # Thi key library v2
-<br />
 
 What this library allows you to do is linking powers to a specific slot and key combination. 
 By connecting the powers to the key library with a power number. Like this, you will be able to have up to 18 active powers at a time. 
 These active powers can be switched to a different slot and key's in-game. Like that you can also switch out one power with another while being in-game. <br />
-<br />
-## Contents
+
+<h2 style="margin-bottom: 0px;">Contents</h2>
 - [How do I use it?](#how-do-i-use-it)
 - [Activation types](#activation-types)
-
 
 ## How do I use it?
 **Step 1 - Downloading and placing in folder** <br />

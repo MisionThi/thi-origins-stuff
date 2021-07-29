@@ -10,8 +10,7 @@ With this library, you will be able to have up to 18 active powers on one origin
 The powers will be set on a specific slot and key, for example, slot 0 and primary-key <br />
 [**Download**](https://github.com/MisionThi/thi_key_library)
 
-## Contents 
-<p style="color:blue;font-size:46px;"> I'm a big, blue, <strong>strong</strong> paragraph</p>
+<h2 style="margin-bottom: 0px;">Contents</h2>
 
 * [How do I use it?](#how-do-i-use-it)
 * [Activation possibilities](#activation-possibilities)
@@ -60,13 +59,13 @@ You will have to place the conditions below in the first part from the power fil
 primary condition in the part named -> `activation_type_primary` <br />
 Secondary condition in the part named -> `activation_type_secondary`
 
-### Push {: .b-m}
+<h3 style="margin-bottom: 0px;">Push</h3>
 With the "push" activation you can click the key ones and will the power will activate.
 When you hold the key the power will still only activate ones. <br />
 How to format the top part examples: `actions = power3.json`, `power-types = power6.json` in the thi_key_example folder <br />
 The conditions for it are. <br />
 
-###### Primary {: .b-m}
+<h6 style="margin-bottom: 0px;">Primary</h6>
 ```json
 "condition": {
   "type": "origins:resource",
@@ -75,7 +74,7 @@ The conditions for it are. <br />
   "compare_to": 1
 }
 ```
-###### Secondary {: .b-m}
+<h6 style="margin-bottom: 0px;">Secondary</h6>
 ```json
 "condition": {
   "type": "origins:resource",
@@ -90,7 +89,7 @@ The conditions for it are. <br />
 With the "push-hold" activation you can hold the key and the power will deactivate once you let the key go. <br />
 How to format the top part examples: `actions = power2.json`, `power-types = power5.json` in the thi_key_example folder<br />
 The conditions for it are. <br />
-###### Primary {: .b-m}
+<h6 style="margin-bottom: 0px;">Primary</h6>
 ```json
 "condition": {
   "type": "origins:resource",
@@ -99,7 +98,7 @@ The conditions for it are. <br />
   "compare_to": 1
 }
 ```
-###### Secondary {: .b-m}
+<h6 style="margin-bottom: 0px;">Secondary</h6>
 ```json
 "condition": {
   "type": "origins:resource",
@@ -114,7 +113,7 @@ The conditions for it are. <br />
 With the "toggle" activation you press the key ones to activate and ones to deactivate. <br />
 How to format the top part examples: `actions = power1.json`, `power-types = power4.json` in the thi_key_example folder<br />
 The conditions for it are. <br />
-###### Primary {: .b-m}
+<h6 style="margin-bottom: 0px;">Primary</h6>
 ```json
 "condition": {
   "type": "origins:resource",
@@ -124,7 +123,7 @@ The conditions for it are. <br />
 }
 ```
 
-###### Secondary {: class="b-m"}
+<h6 style="margin-bottom: 0px;">Secondary</h6>
 ```json
 "condition": {
   "type": "origins:resource",
