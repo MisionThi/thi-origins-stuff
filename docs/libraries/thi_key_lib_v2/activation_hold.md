@@ -4,7 +4,7 @@ date: 2021-07-28
 ---
 
 # Hold activation
-<br />
+The activation type hold detects if the key is getting pressed and then grants the power and revokes the power again when the key is beeing released.
 
 **Power file**
 ```json
