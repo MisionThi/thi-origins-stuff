@@ -1,10 +1,10 @@
 ---
-title: thi_key_library
+title: thi_key_library_v1
 date: 2021-04-04
 ---
 
-# Thi key library
-
+# Thi key library v1 (1.16 only!)
+<br />
 What it does is it creates the possibility to have more than two active abilities on your origin. 
 With this library, you will be able to have up to 18 active powers on one origin. 
 The powers will be set on a specific slot and key, for example, slot 0 and primary-key <br />
