@@ -72,7 +72,7 @@ The structre of the file is as followed: <br />
 <h6 style="margin-bottom: 0px;">Snipit from complete file</h6>
 
 <code class="language-json hljs">{
-  <span class="hljs-attr">"condition"</span>: {
+  <span class="hljs-attr">"condition: {"</span>
     <span class="hljs-attr">"type"</span>: <span class="hljs-string">"apoli:scoreboard"</span>,
     <span class="hljs-attr">"objective"</span>: <span class="hljs-string">"thi_p.a"</span>,
     <span class="hljs-attr">"comparison"</span>: <span class="hljs-string">"=="</span>,
