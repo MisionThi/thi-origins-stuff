@@ -139,7 +139,7 @@ Important to remember is that only the first four powers are preset to a specifi
 If you want to preset more powers to certain key slot combinations you will have to go to the folder `thi_key_library/powers/resources/power_slot/` 
 In this folder, you will find the resources that determine which key slot combination will activate the power.
 To change the slot key combination that activates it change the `"start_value": -1,` to the value you want. <br />
-See the table below for what value means. <br />
+See the table below for what value means.
 
 Value | Slot | Key 
 ------|------|-----
