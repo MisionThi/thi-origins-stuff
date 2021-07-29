@@ -71,9 +71,9 @@ The structre of the file is as followed: <br />
 <h3 style="margin-bottom: 0px;">power_link file</h3>
 <h6 style="margin-bottom: 0px;">Snipit from complete file</h6>
 
-<code class="language-json hljs">{
-  <span class="hljs-attr">"condition: {"</span>
-    <span class="hljs-attr">"type": </span><span class="hljs-string">"apoli:scoreboard",</span>
+<pre><code class="hljs json">{
+  <span class="hljs-attr">"condition"</span>: {
+    <span class="hljs-attr">"type"</span>: <span class="hljs-string">"apoli:scoreboard"</span>,
     <span class="hljs-attr">"objective"</span>: <span class="hljs-string">"thi_p.a"</span>,
     <span class="hljs-attr">"comparison"</span>: <span class="hljs-string">"=="</span>,
     <span class="hljs-attr">"compare_to"</span>: <span class="hljs-number">1</span>
@@ -133,5 +133,4 @@ The structre of the file is as followed: <br />
     }
   }
 }
-</code>
-
+</code></pre>
