@@ -8,3 +8,5 @@ nav:
 
 theme: readthedocs
 
+extra_css:
+    - assets/extra.css
