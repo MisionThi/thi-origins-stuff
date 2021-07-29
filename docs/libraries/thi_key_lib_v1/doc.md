@@ -163,7 +163,6 @@ Value | Slot | Key
 16 | 7 | Secondary
 17 | 8 | Secondary
 
-<br />
 
 ## Change the activation location (in-game)
 When you want to change the location from the activation you will first have to craft the change book. You can see the recipie below.
