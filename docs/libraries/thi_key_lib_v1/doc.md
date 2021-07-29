@@ -10,7 +10,8 @@ With this library, you will be able to have up to 18 active powers on one origin
 The powers will be set on a specific slot and key, for example, slot 0 and primary-key <br />
 [**Download**](https://github.com/MisionThi/thi_key_library)
 
-## Contents {: .b-m}
+## Contents 
+<p style="color:blue;font-size:46px;"> I'm a big, blue, <strong>strong</strong> paragraph</p>
 
 * [How do I use it?](#how-do-i-use-it)
 * [Activation possibilities](#activation-possibilities)
