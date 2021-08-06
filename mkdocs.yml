@@ -1,17 +1,32 @@
 site_name: Thi-origin documentation
 
-nav: 
+pages: 
     - Home: index.md
-    - Libraries: libraries.md
+    - Libraries: 
+        - Library list: libraries/index.md
+        - thi_key_library v1 (1.16 only): 
+            - Home: libraries/thi_key_lib_v1/doc.md
+            - Download: https://github.com/MisionThi/Origins_thi_key_library/releases
+        - thi_key_library v2: 
+            - Home: libraries/thi_key_lib_v2/doc.md
+            - Activation-types: 
+                - Push activation: libraries/thi_key_lib_v2/activation_push.md
+                - Hold activation: libraries/thi_key_lib_v2/activation_hold.md
+                - Toggle activation: libraries/thi_key_lib_v2/activation_toggle.md
+            - Cooldowns: libraries/thi_key_lib_v2/cooldowns.md
+            - Power_link example: libraries/thi_key_lib_v2/example_power_link.md
+            - Download: https://github.com/MisionThi/Apoli_thi_key_lib_v2/releases/tag/v2
     - Powers: powers.md
     - Origins: origins.md
 
-theme: 
-    name: readthedocs
+theme:
+  name: material
+  features:
+    - navigation.indexes
+    - navigation.tabs
+
+plugins:
+  - search
 
 
-extra_css:
-    - assets/extra.css
 
-markdown_extensions:
-    - attr_list
